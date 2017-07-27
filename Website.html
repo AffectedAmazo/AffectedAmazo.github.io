@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+    
+       
+
+ul{
+    margin: 30;
+    padding: 30;
+}
+
+.button_1{
+    height: 38px;
+    background: #708090;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color: #ffffff;
+}
+
+header{
+    background: #DAA520;   
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #708090 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+    
+header li{
+    float: left;
+    display: inline;
+    padding 20px;
+}
+    
+header #branding{
+    float:left;    
+} 
+
+header #branding h1{
+    margin:0;    
+}    
+    
+header nav{
+    float:right;
+    min-width: 100px;
+    
+}
+    
+header .highlight, header .current a{
+    color:#708090;
+    font-weight: bold;
+}
+    
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+    
+#showcase{
+    min-height: 400px;
+    background:url(https://pbs.twimg.com/profile_images/542188458383405056/bhWzIcsS.jpeg) no-repeat 0 -400px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+    
+#showcase p{
+    font-size: 20px;
+}
+    
+#newsletter{
+    padding: 15px;
+    color:#ffffff;
+    background: #DAA520;
+}
+    
+#newsletter h1{
+    float:left;
+}
+#newsletter form{
+    float:right;
+    margin-top: 15px;
+}
+    
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#boxs{
+    margin-top: 20px;
+}
+    
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+
+}
+/* Need Hlp with centering Image */
+
+    footer{
+        padding: 20px;
+        margin-top: 20px;
+        color: #ffffff;
+        background-color:#708090;
+        text-align: center;
+    }
+    
+    @media(max-width: 768px){
+        header #branding,
+        header nav,
+        header nav li,
+        #boxs .box,
+        article#main-col,
+        aside{
+            float: none;
+            text-align: center;
+            width: 100%;
+        }
+        header{
+            padding-bottom: 20px;
+        }
+        
+        #showcase h1{
+            margin-top: 40px;
+        }
+        
+    }
+    
+</style>
+    
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Helios Aide Systems | Home</title>
+  </head>
+    
+    
+    
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+            <h1><span class="highlight"> Helios </span> Aid Systems</h1>
+        </div>
+        <nav>
+            
+        <div class="container">
+          <ul>
+            <li class="current"> <a href="Website.html">Home </a></li><br>
+            <li> <a href="about.html">About Us</a></li><br> 
+            <li> <a href="services.html">Project </a></li>
+          </ul>
+        </div>
+        </nav>
+      </div>
+    </header>-
+
+    <section id="showcase">
+      <div class="container">
+        <h1> Helios Aide Systems </h1>
+        <p> Shinning Light Onto Others</p>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        
+      </div>
+    </section>
+
+    <section id="boxs">
+      <div class="container">
+        <div class="box">
+          <p style="text-align:center;"><img src="Slide3.JPG" style="width:300px;height:200px"></p>
+          <h3> <center>Helios Aid Systems</center></h3>
+          <p> <center> Our Company main modus operandi is helping those in need by harnessing the powe of the sun. </center></p>
+        </div>
+      </div>
+    </section>
+      
+      
+    <footer>
+      <p>Helios Aide Systems</p>
+        <section id="contact">
+            <p>Contact us at: heliosaidsystems@gmail.com</p>
+        </section>
+    </footer>
+
+  </body>
+</html>
